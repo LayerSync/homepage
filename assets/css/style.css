@@ -1,0 +1,204 @@
+.bithu_v2_owl_carousel_sect{
+     background: #08171F;
+     padding: 50px 25px;
+     position: relative;
+     z-index: 1;
+ }
+ .bithu_v2_owl_carousel_sect::-webkit-scrollbar{
+     display: none;
+ }
+ .bithu_v2_owl_carousel_content{
+     position: relative;
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+     flex-shrink: 0;
+ }
+ .bithu_v2_owl_carousel_sect ul{
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+ }
+ .bithu_v2_owl_carousel_sect ul li{
+     height: 170px;
+     width: 170px;
+     background: rgba(255, 255, 255, 0.05);
+     display: flex;
+     align-items: center;
+     justify-content: center;
+ }
+ .bithu_v2_owl_carousel_sect ul li.bg_none{
+     background: transparent;
+ }
+ .bithu_owl_carousel_content ul li {
+     background: rgba(255, 255, 255, 0.05);
+     backdrop-filter: blur(20px);
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     height: 290px;
+     width: 290px;
+     margin-right: 20px;
+ }
+ .bithu_owl_carousel_sect{
+     padding: 20px 40px;
+     position: relative;
+     z-index: 1;
+ }
+ .bithu_owl_carousel_content{
+     position: relative;
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+     flex-shrink: 0;
+ }
+ .bithu_owl_carousel_content ul{
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+ }
+ .bithu_owl_carousel_content ul li {
+	background: rgba(255, 255, 255, 0.05);
+	backdrop-filter: blur(20px);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 100px;
+	width: 200px;
+	margin-right: 20px;
+	border-radius: 12px;
+}
+.item.bg-2 img {
+	width: 145px;
+	height: auto;
+	/* box-shadow: 8px 0px 34px rgba(0,0,0,0.5); */
+	/* border-radius: 50%; */
+}
+ .swiper-autoplay-slider .swiper-slide{
+     text-align: center;
+     background: rgba(255, 255, 255, 0.05);
+     padding-top: 55px;
+     padding-bottom: 55px;
+     cursor: pointer;
+ }
+ 
+ .home1-avater-slider{
+     position: relative;
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+     flex-shrink: 0;
+ }
+ .home1-avater-slider ul{
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+     flex-shrink: 0;
+     overflow: hidden;
+     animation: 18s linear 0s infinite normal none running loop-animate;
+     margin-bottom: 20px;
+     padding: 0;
+}
+ .secondSlider ul{
+     animation: 19s linear 0s infinite normal none running loop-animate2;
+}
+ .home1-avater-slider ul li .item{
+     display: flex;
+     align-items: center;
+     justify-content: center;
+ }
+ 
+/*  
+ 
+ @keyframes loop-animate {
+     0% {
+         transform: translateX(0px);
+     }
+     
+     100% {
+         transform: translateX(-100%);
+     }
+ } */
+
+ @keyframes loop-animate {
+     0% {
+         transform: translateX(0px);
+     }
+     
+     100% {
+         transform: translateX(-100%);
+     }
+ }
+ @keyframes loop-animate2 {
+     0% {
+         transform: translateX(-100%);
+     }
+     
+     100% {
+         transform: translateX(0px);
+     }
+ }
+ @keyframes loop-animate-reverse {
+     0% {
+         transform: translateX(-100px);
+     }
+     
+     100% {
+         transform: translateX(0%);
+     }
+ }
+ 
+
+ .swiper-slide {
+	width: 400px !important;
+}
+
+.social__item a svg:first-child path {
+	font-size: 44px;
+	color: #d8d8d8;
+	-webkit-transition: all 0.3s ease-out 0s;
+	-moz-transition: all 0.3s ease-out 0s;
+	-ms-transition: all 0.3s ease-out 0s;
+	-o-transition: all 0.3s ease-out 0s;
+	transition: all 0.3s ease-out 0s;
+}
+
+@media all and (max-width: 1300px) {
+     .banner-video {
+          transform: scale(2);
+      }
+}
+
+@media all and (max-width: 850px) {
+     .banner-video {
+          transform: scale(3);
+          height: 100% !important;
+      }
+      .banner__content .title {
+          font-size: 85px;
+     }
+     .slider__content p {
+          font-size: 16px;
+     }
+     .banner-btn.tgmenu__action > ul li .tg-btn-3 {
+          width: 150px !important;
+          font-size: 14px;
+     }
+}
+
+@media all and (max-width: 575px) {
+     .banner-video {
+          transform: scale(4.5);
+      }
+      .banner__content .title {
+          font-size: 52px;
+          -webkit-text-stroke: 1px #fff;
+     }
+     .slider__content p {
+          font-size: 12px;
+     }
+     .banner-btn.tgmenu__action > ul li .tg-btn-3 {
+          width: 140px !important;
+          font-size: 11px;
+     }
+}
