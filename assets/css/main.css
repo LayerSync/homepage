@@ -2781,15 +2781,19 @@
      }
  }
 
- .slider__content p {
-     margin: 0 0;
-     font-size: 26px;
-     text-transform: uppercase;
-     font-weight: 700;
-     letter-spacing: 5px;
-     line-height: 1.4;
-     color: var(--tg-common-color-white);
- }
+.slider__content p {
+    margin: 0 0;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 0;
+    line-height: 1.4;
+    color: #dfdfdf;
+    width: 70%;
+    margin: 0 auto;
+    line-height: 25px;
+    text-transform: capitalize;
+}
 
  @media (max-width: 1199.98px) {
      .slider__content p {
